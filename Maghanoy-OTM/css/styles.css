@@ -1,0 +1,13 @@
+.addOwnerContainer {
+    padding: 25px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.ownersTable, .websiteTable {
+    border: 2px solid black;
+    padding: 5px;
+    width: 50%;
+}
