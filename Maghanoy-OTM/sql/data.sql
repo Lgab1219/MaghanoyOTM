@@ -10,8 +10,6 @@ CREATE TABLE ecommercewebsites (
     ownerID INT,
     businessName VARCHAR(255),
     domain VARCHAR(255),
-    websiteStatus BOOLEAN,
+    websiteStatus VARCHAR(255),
     date_added DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
-ALTER TABLE businessowner AUTO_INCREMENT = 1;
